@@ -1,7 +1,6 @@
 
 <template name='chatwindow'>
   <div class="chat">
-    {{> messages}}
     {{> input}}
   </div>
 
@@ -17,13 +16,6 @@
   </script>
 </template>
 
-
-<template name="messages">
-  {{#each msgs}}
-    {{createdAt}} <strong>{{name}}:</strong> {{text}}<br>
-  {{/each}}
-</template>
-
 <template name="input">
-  <p>Message: <input type="text" id="message"></p>
+  <p>Message: <input type="text" id="message" autocomplete="off"></p>
 </template>

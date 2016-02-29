@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-Now
 Empachat
 -----
 
@@ -64,6 +62,3 @@ Empachat provides empathetic chat. Empachat connects together two users who have
 
 @team: HomoSapiens
 
-=======
-# Empathetic-Chat
->>>>>>> 717f9e139924f3181e85ea90d127d0729699e1db

@@ -1,8 +1,9 @@
 <template name='matches'>
-  <h3>Matched Users</h3>
+ <div>
   {{#each matched_users}}
-    <li class="user"><a href='#'>{{username}}</a></li>
-    <!--
+    <div class="card-panel"><li class=" user"><a href='#'>{{username}}</a></li></div>
+    
+<!--
     <div class='matched-user'>
       <form class='new-chat'>
         <span class="label {{labelClass}}">{{username}}</span>
@@ -12,6 +13,8 @@
         <button type='submit'>Chat</button>
       </form>
     </div>
-    -->
+-->
+    
   {{/each}}
+  </div>
 </template>
